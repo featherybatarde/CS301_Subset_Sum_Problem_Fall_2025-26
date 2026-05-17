@@ -7,8 +7,9 @@ Here is the format of the test files:
 
 line 1: number_of_instances (always 30)
 then the following pattern begins: 
-target_sum.
-space_separated_numbers_of_size_specified_by_file.
+
+line 2: target_sum.
+line 3: space_separated_numbers_of_size_specified_by_file.
 
 e.g. In file 7, you may find something like this:
 
