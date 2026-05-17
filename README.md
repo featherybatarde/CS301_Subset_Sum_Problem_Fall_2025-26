@@ -1,0 +1,20 @@
+### About the test files:
+The test files generated are stored in the tests directory, they have a unified naming convention according to the size of the sets that the file contains.
+Each file has 30 random instances of the subset sum problem (random target sum and random set of the same size)
+
+### How to parse the files:
+Here is the format of the test files:
+
+line 1: number_of_instances (always 30)
+then the following pattern begins: 
+     target_sum
+     space_separated_numbers_of_size_specified_by_file
+
+e.g. In file 7, you may find something like this:
+
+30
+12
+1 2 3 4 5 6 7
+....
+34
+23 34 56 43 21 34 54
